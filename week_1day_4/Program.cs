@@ -36,11 +36,11 @@ namespace week_1day_4
 
 
             Console.WriteLine("what is your First Name");
-            string firstName = string.Parse(Console.ReadLine());
-            Console.WriteLine(firstName.Length);
+            string firstName = Console.ReadLine();
 
-            string lastName = "Golden";
-            Console.WriteLine(lastName.Length);
+            Console.WriteLine("what is your Last Name");
+            string lastName = Console.ReadLine();
+           
 
             int firstN = firstName.Length;
             int lastN = lastName.Length;
