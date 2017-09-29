@@ -35,43 +35,65 @@ namespace week_1day_4
 
 
 
-            Console.WriteLine("what is your First Name");
+            //Console.WriteLine("what is your First Name");
+            //string firstName = Console.ReadLine();
+
+            //Console.WriteLine("what is your Last Name");
+            //string lastName = Console.ReadLine();
+
+
+            //int firstN = firstName.Length;
+            //int lastN = lastName.Length;
+
+            //if (firstN > lastN)
+            //{
+
+            //    Console.WriteLine("first is longer");
+
+            //}
+            //else if (lastN < firstN)
+            //{
+            //    Console.WriteLine("Last is longer");
+            //}
+            //else if (firstN == lastN)
+            //{
+
+            //    Console.WriteLine("samsis");
+            //}
+            //else {
+            //    Console.WriteLine("Last must be longer");
+
+            //}
+
+            //ask for name see if they are eqaul or not
+            //Console.WriteLine("what is your name?");
+            //string person1 = Console.ReadLine();
+
+
+            //Console.WriteLine("what is your name?");
+            //string person2 = Console.ReadLine();
+
+            //bool equal =(person1 == person2);
+            //bool nequal =(person1 != person2);
+
+            //if (equal)
+            //{
+            //    Console.WriteLine("The names are the same.");
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The names are different.");
+            //}
+
+
+             Console.WriteLine("what is your First Name");
             string firstName = Console.ReadLine();
 
             Console.WriteLine("what is your Last Name");
             string lastName = Console.ReadLine();
-           
 
-            int firstN = firstName.Length;
-            int lastN = lastName.Length;
-
-            if (firstN > lastN)
-            {
-
-                Console.WriteLine("first is longer");
-
-            }
-            else if (lastN < firstN)
-            {
-                Console.WriteLine("Last is longer");
-            }
-            else if (firstN == lastN)
-            {
-
-                Console.WriteLine("samsis");
-            }
-            else {
-                Console.WriteLine("Last must be longer");
-
-            }
-
-
-
-
-
-
-
-
+            Console.WriteLine(firstName + " " + lastName);
         }
     }
 }
