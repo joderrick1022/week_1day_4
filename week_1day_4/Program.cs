@@ -86,14 +86,34 @@ namespace week_1day_4
             //    Console.WriteLine("The names are different.");
             //}
 
+            // name concad
+            //Console.WriteLine("what is your First Name");
+            //string firstName = Console.ReadLine();
 
-             Console.WriteLine("what is your First Name");
-            string firstName = Console.ReadLine();
+            //Console.WriteLine("what is your Last Name");
+            //string lastName = Console.ReadLine();
 
-            Console.WriteLine("what is your Last Name");
-            string lastName = Console.ReadLine();
+            //Console.WriteLine(firstName + " " + lastName);
 
-            Console.WriteLine(firstName + " " + lastName);
+
+            Console.WriteLine("Guess a type of pet");
+            string answer = Console.ReadLine();
+
+            if (answer.ToLower() == "cat")
+            {
+                Console.WriteLine("You guessed correctly!");
+
+            }
+            else
+            {
+
+                Console.WriteLine("You guessed incorrectly!");
+            }
+
+
+
+
+
         }
     }
 }
